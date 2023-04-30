@@ -37,7 +37,7 @@
 
 - Lazy loading is done 93% of the time meaning that plugins will not be loaded by default, they will be loaded only when required also at specific commands, events etc. This lowers the startuptime and it was like 0.07~ secs tested on an old pentium machine 1.4ghz + 4gb ram & HDD.
 
-- NvChad isnt a framework! Its supposed to be used as a "base" config, so users could tweak the defaults well, can also remove the things they dont like in the default config and build their config on top of it. Users can tweak the entire default config while staying in their custom config (lua/custom dir). This is the control center of the user's config and gitignored so the users can stay update to-date with NvChad's latest config (main branch) while still controlling it with their chadrc (file that controls entire custom dir)
+- NvChad is not a framework. Rather, it serves as a foundational configuration that users can modify according to their preferences. With NvChad, users have the flexibility to remove any elements they do not like from the default configuration and build their own configuration on top of it. Users can adjust the entire default configuration while staying in their custom configuration, which is located in the "lua/custom" directory. This directory serves as the control center for the user's configuration and is gitignored. Therefore, users can keep their configurations up-to-date with the latest version of NvChad on the main branch while maintaining control over their own configuration with the chadrc file, which controls the entire custom directory.
 
 ## Theme Showcase
 
